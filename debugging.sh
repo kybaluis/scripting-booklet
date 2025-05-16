@@ -1,4 +1,6 @@
 #!/bin/bash -ex
+# This script simulates a debugging session for informative purposes
+
 echo "cd /var/log/"
 cd /var/log/
 echo "ls *.log"
@@ -8,5 +10,5 @@ cd ~/non-existing/
 echo "ls *.png"
 ls *.png
 echo "cd /Users/${USER}/"
-cd cd /Users/${USER}/
+cd /Users/${USER}/
 ls *.png
