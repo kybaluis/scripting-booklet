@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script simulates the running and stopping a service daemon through the command line
+# This script simulates an execution and stopping of a service daemon through the command line
 # NOTE: This script presupposes that the sleep-walking-server daemon (see below) exists in /tmp/
 
 # Using case statements, the first argument after the script name is evaluated
@@ -22,7 +22,7 @@ esac
 # /tmp/sleep-walking-server
 
 # !/bin/bash
-# This script simulates a service or a daemon.
+# This is the hypothetical daemon to be executed.
 
 # PID_FILE="/tmp/sleep-walking-server.pid"
 # trap "rm $PID_FILE; exit" SIGHUP SIGINT SIGTERM
